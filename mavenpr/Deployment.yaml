@@ -15,8 +15,11 @@ spec:
     spec:
       containers:
         - name: springboot-container
-          image: madhavan0702/springboot-app:1.0
-          
-
+          image: madhavan0702/mavenpr:latest
           ports:
             - containerPort: 8080
+          resources:
+            requests:
+              cpu: 100m
+            limits:
+              cpu: 200m
