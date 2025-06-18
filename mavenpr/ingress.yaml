@@ -15,7 +15,7 @@ spec:
         pathType: Prefix
         backend:
           service:
-            name: springboot-service
+            name: sp-app
             port:
               number: 80
       - path: /react
