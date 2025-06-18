@@ -5,6 +5,6 @@ metadata:
 spec:
   containers:
   - name: stress
-    image: progrium/stress
+    image: polinux/stress
     command: ["stress"]
     args: ["--cpu", "2", "--timeout", "600"]
